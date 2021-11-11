@@ -13,7 +13,7 @@ is_on = True
 
 while is_on:
     option = menu.get_items()
-    user_command = input(f"What would you like? {option}: sjksnskhfs")
+    user_command = input(f"What would you like? {option}:")
     if user_command == "off":
         is_on = False
     elif user_command == "report":
